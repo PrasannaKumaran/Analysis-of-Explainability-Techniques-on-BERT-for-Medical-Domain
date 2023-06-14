@@ -29,7 +29,10 @@ This work was submitted as the final project for the course CSE 256: Statistical
    pip install -r requirements.txt
    ```
 ## Model and Dataset
-- For this work we have used the kaggle medical transcription dataset and we have fine tuned a pre-trained BERT based model. We have used the [BioBERT](https://arxiv.org/abs/1901.08746) and fine tuned it for 100 epochs by freezing last few layers. We have considered using the model state after 16 epochs since the performance of the model begins to drop as shown in Figure ![Alt text](./images/report data/accuracyPlot.png). 
+- For this work we have used the kaggle medical transcription dataset and we have fine tuned a pre-trained BERT based model. We have used the [BioBERT](https://arxiv.org/abs/1901.08746) and fine tuned it for 100 epochs by freezing last few layers. We have considered using the model state after 16 epochs since the performance of the model begins to drop as shown in Figure 
+<p align="center">
+  <img src="./images/report data/accuracyPlot.png" width="880">
+</p>. 
 
 ## Experiments
 We implemented multiple methods including SHAP, LIME, Integrated Gradients, Adversarial and Counterfactual examples, Vocabulary and Bertology. The implementation can be found in the corresponding ipynb notebook. 
