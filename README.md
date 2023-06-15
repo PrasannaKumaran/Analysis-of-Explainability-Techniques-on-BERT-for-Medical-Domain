@@ -39,4 +39,4 @@ We implemented multiple methods including SHAP, LIME, Integrated Gradients, Adve
 
 ## Authors 
 
-[Prasannakumaran D](http://github.com/PrasannaKumaran), [Ashwin Muralidharan](https://github.com/ashwinmd), [Zongze Liu](), [Pranav Khanna](https://github.com/kpranav1998)
+[Prasannakumaran D](http://github.com/PrasannaKumaran), [Ashwin Muralidharan](https://github.com/ashwinmd), [Zongze Liu](https://github.com/zol013), [Pranav Khanna](https://github.com/kpranav1998)
